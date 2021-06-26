@@ -1,5 +1,3 @@
-
-
 def reverse_string_by_words(phrase: str) -> str:
     new_phrase = ""
     word = ""
@@ -24,4 +22,3 @@ if __name__ == "__main__":
     output_phrase = reverse_string_by_words(input_phrase)
     print(f"Input phrase : {input_phrase}")
     print(f"Output phrase : {output_phrase}")
-
