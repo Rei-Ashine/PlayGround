@@ -1,3 +1,6 @@
+import sys
+
+
 def check_records(txt):
     _ = txt.pop(0)
     eve = txt.pop(0)
@@ -13,7 +16,6 @@ def check_records(txt):
 
 
 if __name__ == "__main__":
-    import sys
     inputs = []
     for line in sys.stdin:
         inputs.append(int(line))

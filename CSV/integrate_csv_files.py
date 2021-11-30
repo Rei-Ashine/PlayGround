@@ -1,6 +1,7 @@
 import sys
 import csv
 
+
 def main(argv):
     out = []
     for i, v in enumerate(argv):

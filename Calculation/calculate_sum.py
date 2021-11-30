@@ -1,3 +1,6 @@
+import sys
+
+
 def calculate_sum(txt):
     a = txt.pop(0)
     b, c = txt.pop(0).split()
@@ -7,8 +10,8 @@ def calculate_sum(txt):
 
 
 if __name__ == "__main__":
-    import sys
     inputs = []
     for line in sys.stdin:
         inputs.append(line)
     calculate_sum(inputs)
+

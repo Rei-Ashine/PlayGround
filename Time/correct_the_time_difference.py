@@ -1,5 +1,6 @@
 import sys
 
+
 def main(lines):
     _ = lines.pop(0)
 

@@ -27,7 +27,7 @@ def attacker(path):
             pwd = bytes("".join(pw), "UTF-8")
             try:
                 zf.extractall(path=".", pwd=pwd)
-                print("\n\nSolved: ", pwd)
+                print("\n\nSolved: ", pwd.decode(encoding="UTF-8"))
                 break
             except Exception as e:
                 count += 1
